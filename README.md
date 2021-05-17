@@ -1,8 +1,5 @@
 # Missing Person Registration using python and MySql
 
-
-[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
-
 A group project for Engineering Collage Second Year.
 
 ## Features
