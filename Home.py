@@ -197,61 +197,62 @@ class result:
         lblsrl = Label(DataFrameLeft, text="Serial Number",font=("ar",12,"bold"), padx=2, pady=6)
         lblsrl.grid(row=0, column=0)
 
-        lblNameTable = Label(DataFrameLeft, text="Name", font=(
+        lblname = Label(DataFrameLeft, text="Name", font=(
             "ar", 12, "bold"), padx=2, pady=6)
-        lblNameTable.grid(row=1, column=0)
+        lblname.grid(row=1, column=0)
 
-        lblNameTable = Label(DataFrameLeft, text="Gender", font=(
+        lblgender = Label(DataFrameLeft, text="Gender", font=(
             "ar", 12, "bold"), padx=2, pady=6)
-        lblNameTable.grid(row=2, column=0)
+        lblgender.grid(row=2, column=0)
 
-        lblNameTable = Label(DataFrameLeft, text="Date", font=(
+        lbldate = Label(DataFrameLeft, text="Date", font=(
             "ar", 12, "bold"), padx=2, pady=6)
-        lblNameTable.grid(row=3, column=0)
+        lbldate.grid(row=3, column=0)
 
-        lblNameTable = Label(DataFrameLeft, text="Time", font=(
+        lbltime = Label(DataFrameLeft, text="Time", font=(
             "ar", 12, "bold"), padx=2, pady=6)
-        lblNameTable.grid(row=4, column=0)
+        lbltime.grid(row=4, column=0)
 
-        lblNameTable = Label(DataFrameLeft, text="DOB Day", font=(
+        lbldobday = Label(DataFrameLeft, text="DOB Day", font=(
             "ar", 12, "bold"), padx=2, pady=6)
-        lblNameTable.grid(row=5, column=0)
+        lbldobday.grid(row=5, column=0)
 
-        lblNameTable = Label(DataFrameLeft, text="DOB Month", font=(
+        lbldobmonth = Label(DataFrameLeft, text="DOB Month", font=(
             "ar", 12, "bold"), padx=2, pady=6)
-        lblNameTable.grid(row=6, column=0)
+        lbldobmonth.grid(row=6, column=0)
 
-        lblNameTable = Label(DataFrameLeft, text="DOB Year", font=(
+        lbldobyear = Label(DataFrameLeft, text="DOB Year", font=(
             "ar", 12, "bold"), padx=2, pady=6)
-        lblNameTable.grid(row=7, column=0)
+        lbldobyear.grid(row=7, column=0)
 
-        lblNameTable = Label(DataFrameLeft, text="Phone Number", font=(
+        lblphno = Label(DataFrameLeft, text="Phone Number", font=(
             "ar", 12, "bold"), padx=2, pady=6)
-        lblNameTable.grid(row=0, column=3)
+        lblphno.grid(row=0, column=3)
 
-        lblNameTable = Label(DataFrameLeft, text="Age", font=(
+        lblage = Label(DataFrameLeft, text="Age", font=(
             "ar", 12, "bold"), padx=2, pady=6)
-        lblNameTable.grid(row=1, column=3)
+        lblage.grid(row=1, column=3)
 
-        lblNameTable = Label(DataFrameLeft, text="Last Reported Place", font=(
+        lbllastrepoetplace = Label(DataFrameLeft, text="Last Reported Place", font=(
             "ar", 12, "bold"), padx=2, pady=6)
-        lblNameTable.grid(row=2, column=3)
+        lbllastrepoetplace.grid(row=2, column=3)
 
-        lblNameTable = Label(DataFrameLeft, text="Complainant's Full Name", font=(
+        lblcomplainantfullname = Label(DataFrameLeft, text="Complainant's Full Name", font=(
             "ar", 12, "bold"), padx=2, pady=6)
-        lblNameTable.grid(row=3, column=3)
+        lblcomplainantfullname.grid(row=3, column=3)
 
-        lblNameTable = Label(DataFrameLeft, text="Description", font=(
+        lbldescription = Label(DataFrameLeft, text="Description", font=(
             "ar", 12, "bold"), padx=2, pady=6)
-        lblNameTable.grid(row=4, column=3)
+        lbldescription.grid(row=4, column=3)
 
-        lblNameTable = Label(DataFrameLeft, text="Police Station Incharge", font=(
+        lblpolicestnincharge = Label(DataFrameLeft, text="Police Station Incharge", font=(
             "ar", 12, "bold"), padx=2, pady=6)
-        lblNameTable.grid(row=5, column=3)
+        lblpolicestnincharge.grid(row=5, column=3)
 
-        lblNameTable = Label(DataFrameLeft, text="Status", font=(
+        lblstatus = Label(DataFrameLeft, text="Status", font=(
             "ar", 12, "bold"), padx=2, pady=6)
-        lblNameTable.grid(row=6, column=3)
+        lblstatus.grid(row=6, column=3)
+
 
         # ===========Text Entry=============
 
